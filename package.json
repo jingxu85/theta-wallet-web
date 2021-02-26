@@ -35,7 +35,7 @@
     "web3": "^1.0.0-beta.52"
   },
   "scripts": {
-    "start": "react-app-rewired start",
+    "start": "HTTPS=true react-app-rewired start",
     "build-new": "react-app-rewired build",
     "test-new": "react-app-rewired test --env=jsdom",
     "start-old": "react-scripts start",
