@@ -464,9 +464,9 @@ class UnlockWalletViaColdWallet extends React.Component {
                                 onChange={this.handleDerivationPathChange}
                                 className={"UnlockColdWalletLedger__select"}
                         >
-                            <option value={EthereumDerivationPath}>Ethereum - m/44'/60'/0'/0</option>
-                            <option value={EthereumOtherDerivationPath}>Ethereum - m/44'/60'/0'</option>
-                            <option value={EthereumLedgerLiveDerivationPath}>Ethereum - Ledger Live - m/44'/60'</option>
+                            <option value={EthereumDerivationPath}>ThetaDev - m/44'/60'/0'/0</option>
+                            <option value={EthereumOtherDerivationPath}>ThetaDev - m/44'/60'/0'</option>
+                            <option value={EthereumLedgerLiveDerivationPath}>Theta - Dev - m/44'/1777'</option>
                         </select>
                     }
                 </div>
